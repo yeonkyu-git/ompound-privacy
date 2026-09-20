@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>낮잠 알람 앱 개인정보처리방침</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", sans-serif;
+         max-width: 720px; margin: 0 auto; padding: 32px 20px 80px; line-height: 1.7; color: #222; }
+  h1 { font-size: 22px; margin-bottom: 4px; }
+  .meta { color: #666; font-size: 13px; margin-bottom: 32px; }
+  h2 { font-size: 17px; margin-top: 36px; border-bottom: 1px solid #ddd; padding-bottom: 6px; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 14px; }
+  th, td { border: 1px solid #ddd; padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #f5f5f5; }
+  ul { padding-left: 20px; }
+  a { color: #06c; }
+  .contact { background: #f9f9f9; border: 1px solid #ddd; padding: 14px 16px; margin-top: 12px; }
+  .notice { background: #fff8e1; border: 1px solid #f0d78c; padding: 14px 16px; margin: 16px 0; }
+  code { background: #f2f2f2; padding: 1px 5px; border-radius: 3px; font-size: 13px; }
+</style>
+</head>
+<body>
+
+<h1>낮잠 알람 앱 개인정보처리방침</h1>
+<p>앱 ID: <code>com.ompound.powernap</code></p>
+<p class="meta">시행일자: 2026-09-20 · 최종 개정일: 2026-09-20</p>
+
+<p>
+Ompound(이하 "개발자")는 「개인정보 보호법」 등 관련 법령을 준수하며, 이 앱(이하 "앱")
+이용자의 개인정보를 보호하기 위해 다음과 같이 개인정보처리방침을 수립·공개합니다.
+</p>
+
+<h2>1. 현재 버전이 수집하는 정보</h2>
+
+<p><b>현재 버전(1.0.0)은 수집하는 개인정보가 없습니다.</b></p>
+
+<p>
+현재 버전은 서버나 백엔드를 두지 않는 완전 오프라인 앱입니다. 인터넷 연결이 필요하지 않고,
+인터넷에 접속할 수 있는 권한(<code>android.permission.INTERNET</code>) 자체를 요청하지
+않습니다. 따라서 이용자의 어떤 정보도 외부로 전송·저장·제3자 제공할 수 있는 경로가
+존재하지 않습니다.
+</p>
+
+<table>
+<tr><th>수집 항목</th><th>수집 목적</th><th>필수 여부</th></tr>
+<tr><td>없음</td><td>해당 없음</td><td>해당 없음</td></tr>
+</table>
+
+<p>
+기기 안에는 다음 정보만 저장됩니다. 이 정보는 오직 이용자의 기기 안에만 남아 있고,
+개발자를 포함한 어느 누구에게도 전송되지 않습니다.
+</p>
+<ul>
+  <li>마지막으로 사용한 낮잠 설정(재생 사운드 종류, 낮잠 길이, 램프 시작 시점·진동·소리 피드백 등 설정값)</li>
+</ul>
+
+<p>
+앱이 요청하는 권한 중 개인정보 수집과 무관한 것들도 함께 밝힙니다.
+<code>POST_NOTIFICATIONS</code> 는 알람 시각을 알리는 알림 표시에,
+<code>WAKE_LOCK</code>·<code>FOREGROUND_SERVICE</code>·<code>FOREGROUND_SERVICE_MEDIA_PLAYBACK</code>
+은 화면이 꺼진 상태에서도 재생과 알람을 이어가는 데,
+<code>USE_EXACT_ALARM</code>(및 API 32 이하의 <code>SCHEDULE_EXACT_ALARM</code>)은 정해진
+시각에 정확히 알람을 울리는 데, <code>VIBRATE</code> 는 알람 진동 기능에 쓰입니다.
+이 권한들은 모두 기기 내부 동작이며 개인정보를 외부로 전송하지 않습니다.
+</p>
+
+<h2>2. 향후 버전에서 도입 예정인 수집</h2>
+
+<div class="notice">
+<b>아래 내용은 현재 버전에 포함되어 있지 않습니다.</b> 개발자는 향후 업데이트에서 광고
+게재와 이용 통계 수집을 도입할 계획이며, 이용자가 미리 알 수 있도록 지금 고지합니다.
+실제로 도입되는 시점에 이 문서의 시행일자를 갱신하고, 본 절의 이 안내 문구를 제거하여
+해당 수집이 유효함을 명확히 표시합니다.
+</div>
+
+<p>
+도입 시 아래 두 가지 Google 서비스가 앱에 포함됩니다. 두 경우 모두 개발자가 이용자의
+이름·연락처·계정 등 <b>직접 식별 가능한 정보를 수집하지는 않습니다.</b>
+</p>
+
+<table>
+<tr><th>수집 항목</th><th>수집 주체</th><th>수집 목적</th><th>필수 여부</th></tr>
+<tr>
+  <td>광고 식별자(AAID), 기기 정보, IP 주소, IP 기반 대략적 위치, 광고 상호작용 기록</td>
+  <td>Google AdMob SDK (자동 수집)</td>
+  <td>광고 게재, 중복 노출 제한, 광고 성과 측정</td>
+  <td>선택 (기기 설정에서 제한 가능)</td>
+</tr>
+<tr>
+  <td>앱 인스턴스 ID, 앱 이용 이벤트(화면 조회, 낮잠 시작·완료, 광고 노출 등)와 발생 시각, 기기 모델·OS 버전·언어·국가</td>
+  <td>Google Firebase Analytics SDK (자동 수집)</td>
+  <td>기능 이용 현황 파악, 오류 진단, 서비스 개선</td>
+  <td>필수</td>
+</tr>
+</table>
+
+<ul>
+  <li>두 SDK 가 수집하는 정보의 상세 내역과 처리 방식은 Google 의 정책을 따릅니다.
+    <ul>
+      <li>Google 이 파트너 사이트·앱에서 정보를 사용하는 방식:
+        <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></li>
+      <li>Firebase 개인정보 및 보안:
+        <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
+    </ul>
+  </li>
+  <li>이용자는 <b>기기 설정 &gt; 개인정보 보호 &gt; 광고</b> 에서 광고 ID 를 재설정하거나
+    삭제하여 맞춤 광고를 제한할 수 있습니다.</li>
+  <li>위 항목 외의 별도 선택 수집 항목은 운영하지 않습니다.</li>
+</ul>
+
+<h2>3. 개인정보의 보유 및 이용 기간</h2>
+
+<p>기기 안에 저장된 낮잠 설정은 이용자가 앱을 삭제하는 즉시 함께 삭제됩니다.</p>
+
+<p>
+현재 버전에서 개발자가 서버에 별도로 보관하는 정보는 없습니다. 2절의 수집이 도입된
+이후에는 Google 이 각 서비스의 보관 정책에 따라 보관하며, 개발자는 Firebase Analytics 의
+이용자 단위 데이터 보관 기간을 Firebase 콘솔에 설정된 기간(기본 2개월)으로 운영합니다.
+</p>
+
+<h2>4. 개인정보의 제3자 제공</h2>
+
+<p>개발자는 이용자의 개인정보를 제3자에게 판매하거나 제공하지 않습니다.</p>
+
+<p>
+현재 버전에는 광고 SDK 와 분석 SDK 가 포함돼 있지 않습니다. 2절의 수집이 도입된 이후,
+광고 게재와 이용 통계를 위해 Google 이 해당 정보를 처리하게 되며 이는 아래 5절의
+처리위탁에 해당합니다.
+</p>
+
+<h2>5. 개인정보 처리위탁 및 국외 이전</h2>
+
+<p>현재 버전은 개인정보 처리를 위탁하는 외부 업체가 없습니다.</p>
+
+<p>2절의 수집이 도입된 이후의 위탁 현황은 다음과 같습니다.</p>
+
+<table>
+<tr><th>수탁업체</th><th>위탁 업무</th><th>국외 이전</th></tr>
+<tr><td>Google LLC</td><td>광고 게재 및 성과 측정 (AdMob)</td><td>미국 등 Google 데이터센터 소재 국가</td></tr>
+<tr><td>Google LLC</td><td>앱 이용 통계 분석 (Firebase Analytics)</td><td>미국 등 Google 데이터센터 소재 국가</td></tr>
+</table>
+
+<p>
+이전되는 항목·시점·방법은 2절의 표와 같습니다. 이전받는 자의 개인정보 보호 정책과
+연락처는 Google 개인정보처리방침(<a href="https://policies.google.com/privacy">policies.google.com/privacy</a>)
+에서 확인할 수 있습니다. 이용자는 국외 이전을 원하지 않을 경우 앱을 삭제하여 거부할 수 있습니다.
+</p>
+
+<h2>6. 이용자의 권리와 행사 방법</h2>
+
+<p>이용자는 언제든지 자신의 개인정보에 대해 열람·정정·삭제·처리정지를 요구할 수 있습니다.</p>
+<ul>
+  <li>기기 안에 저장된 설정값은 <b>앱을 삭제하면</b> 함께 삭제됩니다.</li>
+  <li>2절의 수집이 도입된 이후, 광고 식별자는 <b>기기 설정 &gt; 개인정보 보호 &gt; 광고</b>
+    에서 이용자가 직접 재설정하거나 삭제할 수 있습니다.</li>
+  <li>그 외 요청은 아래 9절의 연락처로 문의하면 지체 없이 처리하고 답변합니다.</li>
+</ul>
+
+<h2>7. 개인정보의 파기 절차 및 방법</h2>
+
+<p>
+이용자가 앱을 삭제하면 기기 내부에 저장돼 있던 설정값은 운영체제에 의해 함께
+삭제됩니다. 2절의 수집이 도입된 이후 Google 에 보관되는 데이터는 각 서비스의
+보관 기간이 만료되면 Google 의 절차에 따라 파기됩니다.
+</p>
+
+<h2>8. 만 14세 미만 아동의 개인정보</h2>
+
+<p>
+이 앱은 만 14세 미만 아동을 대상으로 설계된 서비스가 아니며, 아동으로부터 의도적으로
+개인정보를 수집하지 않습니다. 2절의 수집이 도입된 이후에도 아동에게는 맞춤 광고가
+게재되지 않도록 설정하여 운영합니다.
+</p>
+
+<h2>9. 개인정보 보호책임자</h2>
+
+<div class="contact">
+개발자: Ompound<br>
+이메일: <a href="mailto:ompoundforge@gmail.com">ompoundforge@gmail.com</a>
+</div>
+
+<h2>10. 고지의 의무</h2>
+
+<p>
+본 방침은 관련 법령, 정책 또는 서비스 변경에 따라 개정될 수 있으며, 개정 시 앱 내 공지
+또는 본 페이지를 통해 고지합니다. 특히 2절의 수집이 실제로 도입되는 시점에는 시행일자를
+갱신하고 변경 내용을 본 페이지에 명시합니다.
+</p>
+
+</body>
+</html>
