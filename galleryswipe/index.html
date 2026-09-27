@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>폴더스와이프 개인정보처리방침</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", sans-serif;
+         max-width: 720px; margin: 0 auto; padding: 32px 20px 80px; line-height: 1.7; color: #222; }
+  h1 { font-size: 22px; margin-bottom: 4px; }
+  .meta { color: #666; font-size: 13px; margin-bottom: 32px; }
+  h2 { font-size: 17px; margin-top: 36px; border-bottom: 1px solid #ddd; padding-bottom: 6px; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 14px; }
+  th, td { border: 1px solid #ddd; padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #f5f5f5; }
+  ul { padding-left: 20px; }
+  a { color: #06c; }
+  .contact { background: #f9f9f9; border: 1px solid #ddd; padding: 14px 16px; margin-top: 12px; }
+  code { background: #f2f2f2; padding: 1px 5px; border-radius: 3px; font-size: 13px; }
+</style>
+</head>
+<body>
+
+<h1>폴더스와이프 개인정보처리방침</h1>
+<p>앱 ID: <code>com.ompound.galleryswipe</code> · 버전: 0.1.5</p>
+<p class="meta">시행일자: 2026-09-27 · 최종 개정일: 2026-09-27</p>
+
+<p>
+Ompound(이하 "개발자")는 「개인정보 보호법」 등 관련 법령을 준수하며, 이 앱(이하 "앱")
+이용자의 개인정보를 보호하기 위해 다음과 같이 개인정보처리방침을 수립·공개합니다.
+</p>
+
+<h2>1. 수집하는 정보</h2>
+
+<p><b>이 앱은 수집하는 개인정보가 없습니다.</b></p>
+
+<p>
+이 앱은 서버나 백엔드를 두지 않는 완전 오프라인 앱입니다. 인터넷 연결이 필요하지 않고,
+인터넷에 접속할 수 있는 권한(<code>android.permission.INTERNET</code>) 자체를 요청하지
+않습니다. 따라서 이용자의 어떤 정보도 외부로 전송·저장·제3자 제공할 수 있는 경로가
+존재하지 않습니다. 사진을 분류·정리하는 모든 처리는 이용자의 기기 안에서만 이루어집니다.
+</p>
+
+<table>
+<tr><th>요청 권한</th><th>수집 목적</th><th>필수 여부</th></tr>
+<tr>
+  <td><code>READ_MEDIA_IMAGES</code></td>
+  <td>기기에 저장된 사진을 불러와 화면에 표시하고, 스와이프로 분류한 뒤 실제로
+      삭제·이동하기 위함</td>
+  <td>필수</td>
+</tr>
+<tr>
+  <td><code>READ_EXTERNAL_STORAGE</code>(API 32 이하 기기에서만)</td>
+  <td>위와 동일 — 구버전 안드로이드의 사진 접근 권한</td>
+  <td>필수</td>
+</tr>
+</table>
+
+<p>
+위 권한으로 읽어들인 사진 자체는 개발자에게 전송되지 않으며, 오직 이용자의 화면에
+표시하고 이용자가 지시한 대로 분류·처리하는 데에만 쓰입니다.
+</p>
+
+<p>
+기기 안에는 다음 정보만 저장됩니다. 이 정보는 오직 이용자의 기기 안에만 남아 있고,
+개발자를 포함한 어느 누구에게도 전송되지 않습니다.
+</p>
+
+<table>
+<tr><th>저장 항목</th><th>내용</th></tr>
+<tr>
+  <td>처리 세션 요약</td>
+  <td>정리한 앨범, 분류·삭제·이동·보관·실패 건수, 확보한 용량 등 (앱 내 "이력" 화면에
+      표시)</td>
+</tr>
+<tr>
+  <td>사진별 처리 이력</td>
+  <td>분류 방향, 이동 대상 앨범, 처리 성공 여부, 실패 시 사유</td>
+</tr>
+<tr>
+  <td>슬롯 앨범 경로</td>
+  <td>위·아래로 스와이프할 때 이동시킬 앨범 두 곳의 경로</td>
+</tr>
+</table>
+
+<h2>2. 개인정보의 보유 및 이용 기간</h2>
+
+<p>
+위 표의 정보는 모두 이용자의 기기 안에만 저장되며, 개발자의 서버에는 어떤 정보도
+보관되지 않습니다. 이용자가 앱을 삭제하면 기기에 저장돼 있던 정보는 함께 삭제됩니다.
+</p>
+
+<h2>3. 개인정보의 제3자 제공</h2>
+
+<p>
+개발자는 이용자의 개인정보를 제3자에게 판매하거나 제공하지 않습니다. 이 앱에는 광고
+SDK, 분석 SDK, 그 밖의 어떤 외부 SDK도 포함돼 있지 않으며, 정보를 외부로 보낼 수 있는
+네트워크 연결 자체가 없습니다.
+</p>
+
+<h2>4. 개인정보 처리위탁 및 국외 이전</h2>
+
+<p>
+이 앱은 개인정보 처리를 위탁하는 외부 업체가 없고, 개인정보를 국외로 이전하지도
+않습니다.
+</p>
+
+<h2>5. 이용자의 권리와 행사 방법</h2>
+
+<p>이용자는 언제든지 자신의 정보에 대해 열람·정정·삭제·처리정지를 요구할 수 있습니다.</p>
+<ul>
+  <li>기기 안에 저장된 세션 요약·처리 이력·슬롯 앨범 경로는 <b>앱을 삭제하면</b> 함께
+      삭제됩니다.</li>
+  <li>그 외 요청은 아래 8절의 연락처로 문의하면 지체 없이 처리하고 답변합니다.</li>
+</ul>
+
+<h2>6. 개인정보의 파기 절차 및 방법</h2>
+
+<p>
+이용자가 앱을 삭제하면 기기 내부에 저장돼 있던 세션 요약·처리 이력·슬롯 앨범 경로는
+운영체제에 의해 함께 삭제됩니다. 개발자가 별도로 보관하는 정보가 없으므로 그 밖의
+파기 절차는 존재하지 않습니다.
+</p>
+
+<h2>7. 만 14세 미만 아동의 개인정보</h2>
+
+<p>
+이 앱은 만 14세 미만 아동을 대상으로 설계된 서비스가 아니며, 아동으로부터 의도적으로
+개인정보를 수집하지 않습니다.
+</p>
+
+<h2>8. 개인정보 보호책임자</h2>
+
+<div class="contact">
+개발자: Ompound<br>
+이메일: <a href="mailto:ompoundforge@gmail.com">ompoundforge@gmail.com</a>
+</div>
+
+<h2>9. 고지의 의무</h2>
+
+<p>
+본 방침은 관련 법령, 정책 또는 서비스 변경에 따라 개정될 수 있으며, 개정 시 앱 내 공지
+또는 본 페이지를 통해 고지합니다.
+</p>
+
+</body>
+</html>
