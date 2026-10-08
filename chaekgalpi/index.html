@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>책갈피역 개인정보처리방침</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", sans-serif;
+         max-width: 720px; margin: 0 auto; padding: 32px 20px 80px; line-height: 1.7; color: #222; }
+  h1 { font-size: 22px; margin-bottom: 4px; }
+  .meta { color: #666; font-size: 13px; margin-bottom: 32px; }
+  h2 { font-size: 17px; margin-top: 36px; border-bottom: 1px solid #ddd; padding-bottom: 6px; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 14px; }
+  th, td { border: 1px solid #ddd; padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #f5f5f5; }
+  ul { padding-left: 20px; }
+  a { color: #06c; }
+  .contact { background: #f9f9f9; border: 1px solid #ddd; padding: 14px 16px; margin-top: 12px; }
+</style>
+</head>
+<body>
+
+<h1>책갈피역(Chaekgalpi) 개인정보처리방침</h1>
+<p class="meta">앱 ID: <code>com.ompound.chaekgalpi</code> · 시행일자: 2026-10-08 · 최종 개정일: 2026-10-08</p>
+
+<p>
+Ompound(이하 "개발자")는 「개인정보 보호법」 등 관련 법령을 준수하며, 앱 "책갈피역"(이하 "앱")
+이용자의 개인정보를 보호하기 위해 다음과 같이 개인정보처리방침을 수립·공개합니다.
+</p>
+
+<p>
+앱은 회원가입·로그인이 없고, 개발자가 운영하는 서버도 없습니다. 광고·분석·크래시 수집 SDK 를
+포함하지 않습니다. 개발자는 이용자의 이름·연락처·계정 등 <b>어떠한 개인정보도 수집하지 않습니다.</b>
+</p>
+
+<h2>1. 기기 안에만 저장되는 정보</h2>
+
+<p><b>다음 정보는 앱 기기 내부에만 저장되며, 개발자에게 전송되지 않습니다.</b></p>
+<ul>
+  <li>독서 기록: 날짜·시각, 승차역·하차역·호선, 탑승 시간, 독서 시간, 읽은 쪽수</li>
+  <li>등록한 책 정보: 제목·저자·쪽수·표지 주소</li>
+  <li>앱 설정값</li>
+</ul>
+
+<h2>2. 앱이 사용하는 권한</h2>
+<table>
+<tr><th>권한</th><th>사용 목적</th><th>필수 여부</th></tr>
+<tr><td>위치 (정확한 위치·대략적 위치)</td><td>가까운 지하철역 찾기, 탑승 중 열차 추적. <b>앱을 사용하는 중에만</b> 사용하며 백그라운드 위치는 요청하지 않습니다. 위치 좌표는 저장하거나 외부로 전송하지 않습니다.</td><td>선택 (거부 시 역을 직접 선택)</td></tr>
+<tr><td>알림</td><td>독서 중 상태 표시, 하차역 도착 알람</td><td>필수</td></tr>
+<tr><td>방해 금지 모드 접근</td><td>독서하는 동안 다른 알림을 막고, 하차 시 원래 설정으로 복원</td><td>선택</td></tr>
+<tr><td>정확한 알람 예약</td><td>네트워크가 끊겨도 하차 알람이 울리도록 하는 백업 알람</td><td>선택</td></tr>
+<tr><td>인터넷·네트워크 상태</td><td>아래 §3 의 공공 API 조회</td><td>필수</td></tr>
+</table>
+<p>열차 출발 감지를 위해 기기의 움직임 센서(가속도계)를 사용할 수 있으며, 센서 값은 기기 안에서만 처리하고 저장하지 않습니다.</p>
+
+<h2>3. 외부 서비스로 전송되는 정보</h2>
+<p>앱은 아래 두 곳에만 접속합니다. 개인을 식별할 수 있는 정보는 보내지 않습니다.</p>
+<table>
+<tr><th>접속처</th><th>전송 내용</th><th>목적</th></tr>
+<tr><td>서울 열린데이터광장 (서울특별시)</td><td>호선명, 역명</td><td>실시간 열차 위치·도착 정보 조회</td></tr>
+<tr><td>알라딘 Open API (㈜알라딘커뮤니케이션)</td><td>책 검색어, 책 식별번호</td><td>책 검색·쪽수 조회, 표지 이미지 표시</td></tr>
+</table>
+<p>
+통신 과정에서 각 서비스에 이용자 기기의 IP 주소가 전달될 수 있으며, 이는 각 서비스 제공자의
+정책에 따라 처리됩니다. 두 서비스 모두 국내 서비스이며, 개인정보의 국외 이전은 없습니다.
+</p>
+<ul>
+  <li>서울 열린데이터광장: <a href="https://data.seoul.go.kr" target="_blank" rel="noopener">https://data.seoul.go.kr</a></li>
+  <li>알라딘 개인정보처리방침: <a href="https://www.aladin.co.kr" target="_blank" rel="noopener">https://www.aladin.co.kr</a></li>
+</ul>
+
+<h2>4. 개인정보의 제3자 제공 및 처리위탁</h2>
+<p>개발자는 개인정보를 수집하지 않으므로 제3자에게 제공하거나 처리를 위탁하지 않습니다.</p>
+
+<h2>5. 보유 기간 및 파기</h2>
+<p>
+기기 안에 저장된 정보는 이용자가 앱 데이터를 지우거나 앱을 삭제하면 운영체제에 의해 함께
+삭제됩니다. 개발자 측에 보관되는 정보는 없습니다.
+</p>
+
+<h2>6. 이용자의 권리와 행사 방법</h2>
+<p>
+모든 정보는 이용자 기기 안에만 있으므로 이용자가 직접 열람·삭제할 수 있습니다.
+궁금한 점은 아래 연락처로 문의하시면 지체 없이 답변합니다.
+</p>
+
+<h2>7. 만 14세 미만 아동의 개인정보</h2>
+<p>
+본 앱은 만 14세 미만 아동을 대상으로 설계된 서비스가 아니며, 아동으로부터 의도적으로
+개인정보를 수집하지 않습니다.
+</p>
+
+<h2>8. 개인정보 보호책임자</h2>
+<div class="contact">
+개발자: Ompound<br>
+이메일: <a href="mailto:ompoundforge@gmail.com">ompoundforge@gmail.com</a>
+</div>
+
+<h2>9. 고지의 의무</h2>
+<p>
+본 방침은 관련 법령, 정책 또는 서비스 변경에 따라 개정될 수 있으며, 개정 시 앱 스토어의
+개인정보처리방침 링크 또는 본 페이지를 통해 고지합니다.
+</p>
+
+<hr style="margin-top:48px; border:none; border-top:1px solid #ddd;">
+<p style="font-size:12px; color:#999;">본 문서는 https://yeonkyu-git.github.io/ompound-privacy/chaekgalpi/ 에서 상시 열람 가능합니다.</p>
+
+</body>
+</html>
